@@ -1,3 +1,30 @@
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #d3d7d9;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  padding-top: 1.5em;
+}
+.navbar a {
+  padding: 10px;
+  margin: 0 5px;
+}
+.navbar a:hover {
+  background-color: #d3d7d9;
+  border-radius: 7px;
+  color: black;
+}
 footer {
   position: fixed;
   left: 0;
@@ -6,4 +33,7 @@ footer {
   background-color: black;
   color: white;
   height: 50px;
+}
+.about-me {
+  padding-top: 40px;
 }
