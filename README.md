@@ -1,11 +1,19 @@
-# Portfolio
+# Benjamin's Obafemi Portfolio
 
-This portfolio is a simple template for developer profile.
+This is my personal portfolio with the list of projects
+I have worked on.
 
-## Usage
+## Project setup instruction
 
+This project contains basic template, with css style sheet.
 You can clone the page and modify it to suit your profile
 
-## Contributing
+## Link to live site
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+This project is published on netlify.
+Here is the link.
+[a link](https://festive-lamarr-7076fc.netlify.app/)
+
+## Copyright
+
+Benjamin Obafemi.
