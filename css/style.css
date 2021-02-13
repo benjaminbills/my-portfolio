@@ -1,3 +1,6 @@
+body {
+  color: #414141;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -33,14 +36,18 @@ a {
 }
 .flex-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   justify-content: center;
+  padding: 10px 10px 50px 10px;
 }
 .flex-item {
   padding: 20px;
+  justify-content: center;
+  width: 40%;
 }
 footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -51,10 +58,17 @@ footer {
 .about-me {
   padding-top: 90px;
 }
+.project {
+  text-align: center;
+  padding: 10px 10px 50px 10px;
+}
+.project h3 {
+  padding-bottom: 20px;
+}
 img {
   border-radius: 50%;
   display: flex;
-  width: 100%;
+  width: 65%;
   height: auto;
 }
 .grid-container {
@@ -62,18 +76,55 @@ img {
   flex-direction: row;
   justify-content: center;
   grid-gap: 30px;
+  padding-bottom: 20px;
 }
 .grid-item-title {
-  width: 1000px;
   text-align: center;
   border-radius: 3px;
-  background: #0d0d0d;
-  width: 50%;
-  padding-right: 25px;
+  background: #414141;
+  height: auto;
+  width: 35%;
+  padding: 3px 3px 3px 3px;
   color: aliceblue;
 }
+.project i {
+  font-size: 35px;
+  color: #777;
+}
+
+button {
+  background-color: #474747;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  border: none;
+  color: #777;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+}
+.contact {
+  text-align: center;
+}
+.contact-icon {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact-icon a {
+  margin-bottom: 10px;
+  color: #414141;
+}
+.contact-icon i {
+  font-size: 25px;
+}
 .grid-item-details {
-  width: 50%;
+  width: 35%;
 }
 @media (max-width: 800px) {
   .flex-container,
