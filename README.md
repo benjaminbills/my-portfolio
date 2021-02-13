@@ -11,8 +11,8 @@ You can clone the page and modify it to suit your profile
 ## Link to live site
 
 This project is published on netlify.
-Here is the link.
-[a link](https://festive-lamarr-7076fc.netlify.app/)
+Click on the Link.
+[Benjamin Portfolio](https://festive-lamarr-7076fc.netlify.app/)
 
 ## Copyright
 
