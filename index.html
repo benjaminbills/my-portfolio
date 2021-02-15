@@ -18,9 +18,10 @@
     <div class="navbar">
       <div class="container flex">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Project</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Project" target="">Project</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Skills">Skills</a></li>
         </ul>
       </div>
     </div>
@@ -42,7 +43,7 @@
         </div>
       </div>
     </div>
-    <div class="project">
+    <div id="Project" class="project">
       <h3>Projects Completed</h3>
       <div class="grid-container">
         <div class="grid-item-title">
@@ -68,11 +69,13 @@
       <div class="grid-container">
         <div class="grid-item-details">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea
-            nemo accusantium, numquam quam impedit praesentium nobis quos maxime
-            nesciunt mollitia ipsam exercitationem fugiat assumenda debitis
-            molestias culpa dolorem soluta!
+            A website for Diani Private Island Resort. The website displays details about the hotel.  I made use of html, css and bootstrap.
           </p>
+          <div class="tools-used">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-bootstrap"></i>
+          </div>
         </div>
         <div class="grid-item-title">
           <h2>Private Island Resort</h2>
@@ -82,25 +85,39 @@
         </a>
         </div>
       </div>
-      <div class="grid-container">
-        <div class="grid-item-title">
-          <h2>Photographer Portfolio</h2>
-          <p>Got some feedback? Let me know on Twitter <a href="https://twitter.com/Benjaminobafem1" target="_blank">@Benjaminobafem1</a></p>
-          <a href="https://zealous-davinci-de84b4.netlify.app/" target="_blank"><button>View Project</button></a>
-          
-        </a>
-        </div>
-        <div class="grid-item-details">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea
-            nemo accusantium, numquam quam impedit praesentium nobis quos maxime
-            nesciunt mollitia ipsam exercitationem fugiat assumenda debitis
-            molestias culpa dolorem soluta!
-          </p>
-        </div>
-      </div>
     </div>
-    <div class="contact">
+<div class="skills">
+  <div class="container">
+    <h2 id="Skills" class="my-skills">My Skills</h2>
+    <div class="bar-1">
+    <div class="title">HTML5</div>
+    <div class="bar" data-width="65%">
+      <div class="bar-percent">85%</div>
+    </div>
+    </div>
+    <div class="bar-1">
+    <div class="title">CSS3</div>
+    <div class="bar">
+      <div class="bar-percent">85%</div>
+    </div>
+    
+    </div>
+    <div class="bar-1">
+    <div class="title"></div>Javascript</div>
+    <div class="bar">
+      <div class="bar-percent">70%</div>
+    </div>
+    </div>
+    <div class="bar-1">
+    <div class="title">Bootstrap</div>
+    <div class="bar">
+      <div class="bar-percent">75%</div>
+    </div>
+    </div>
+  </div>
+  
+</div>
+    <div id="Contact" class="contact">
       <h3>CONTACT</h3>
       <p>You can contact me on:</p>
       <div class="contact-icon">
@@ -114,5 +131,6 @@
     <footer>
       Copyright 2021 Benjamin Obafemi Portfolio | Developed By Benjamin Obafemi
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>

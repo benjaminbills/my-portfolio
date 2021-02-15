@@ -1,5 +1,6 @@
 body {
   color: #414141;
+  font-size: 20px;
 }
 * {
   box-sizing: border-box;
@@ -126,6 +127,18 @@ button {
 .grid-item-details {
   width: 35%;
 }
+.skills {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #414141;
+  padding-bottom: 20px;
+  color: #d3d7d9;
+  padding-top: 10px;
+}
+.skills .title {
+  margin-top: 9px;
+}
+
 @media (max-width: 800px) {
   .flex-container,
   .flex-container-project {
